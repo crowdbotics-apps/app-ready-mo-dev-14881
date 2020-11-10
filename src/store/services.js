@@ -1,6 +1,6 @@
 import axios from "axios"
 const appreadymoAPI = axios.create({
-  baseURL: "https://app-ready-mo-dev-14881-prod.herokuapp.com/",
+  baseURL: "https://app-ready-mo-dev-14881.botics.co/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_v1_customtext_list(action) {
