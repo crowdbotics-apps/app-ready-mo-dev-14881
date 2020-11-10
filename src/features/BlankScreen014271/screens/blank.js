@@ -30,7 +30,6 @@ export default class Blank extends React.Component {
       <Text>Sample text content</Text>
       <Button title="Press me!" onPress={() => alert("Pressed!")} />
       <DateTimePicker
-        showIcon={false}
         date={this.state.DateTimePicker_7}
         onDateChange={selectedDate =>
           this.setState({ DateTimePicker_7: selectedDate })
@@ -38,10 +37,11 @@ export default class Blank extends React.Component {
       />
       <TextInput
         placeholder="Number Input Placeholder"
-        keyboardType="numeric"
         value={this.state.TextInput_9}
         onChangeText={nextValue => this.setState({ TextInput_9: nextValue })}
       />
+      <Text>Sample text content</Text>
+      <Text>Sample text content</Text>
     </View>
   )
 }
@@ -51,9 +51,17 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {},
   Text_3: {},
   Button_5: {},
   DateTimePicker_7: {},
-  TextInput_9: {}
+  TextInput_9: {},
+  View_1: {},
+  Text_3: {},
+  Button_5: {},
+  DateTimePicker_7: {},
+  TextInput_9: {},
+  Text_10: {},
+  Text_11: {}
 })
